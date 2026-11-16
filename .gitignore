@@ -1,0 +1,3 @@
+venv/**
+citibike-tripdata/**
+.DS_Store
