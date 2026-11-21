@@ -1,0 +1,50 @@
+{
+  "year": 2019,
+  "source_url": "https://s3.amazonaws.com/tripdata/2019-citibike-tripdata.zip",
+  "source_sha256": "2e86870f91f51ea7f3a5209cba159e043f0507d9bae80137e4d7c0433a2b2354",
+  "train_end": "2019-08-31",
+  "validation_end": "2019-10-31",
+  "timezone": "America/New_York",
+  "excluded_dates": [
+    "2019-03-10",
+    "2019-11-03"
+  ],
+  "zones": {
+    "A": {
+      "name": "Upper East Side residential proxy",
+      "lat_min": 40.765,
+      "lat_max": 40.79,
+      "lon_min": -73.973,
+      "lon_max": -73.945
+    },
+    "B": {
+      "name": "Midtown commercial core proxy",
+      "lat_min": 40.748,
+      "lat_max": 40.762,
+      "lon_min": -73.995,
+      "lon_max": -73.967
+    }
+  },
+  "min_training_endpoints": 100,
+  "min_training_active_days": 30,
+  "min_duration_seconds": 60,
+  "max_duration_seconds": 86400,
+  "cutoffs": [
+    6,
+    9,
+    12,
+    15,
+    18
+  ],
+  "primary_cutoff": 12,
+  "alphas": [
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "relative_ridge": 1e-06,
+  "seed": 20261119
+}

@@ -1,0 +1,4 @@
+model,predicted_afternoon_per_day,actual_afternoon_per_day,mean_total_error
+Historical average,429.4525383141763,254.5,174.9525383141763
+Activity-adjusted average,273.43107323824023,254.5,18.93107323824023
+Gaussian,315.6819810615234,254.5,61.1819810615234
