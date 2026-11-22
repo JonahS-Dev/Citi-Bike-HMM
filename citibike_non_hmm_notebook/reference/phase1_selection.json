@@ -1,0 +1,12 @@
+{
+  "selected_model": "Gaussian calendar",
+  "selected_alpha": 0.5,
+  "criterion": "Mean of clipped conditional prediction RMSE across cutoffs 6,9,12,15,18 on validation only",
+  "validation_selection_rmse": 9.335689224940666,
+  "refit_on_validation": false,
+  "primary_cutoff": 12,
+  "best_alpha_by_model": {
+    "Gaussian pooled": 0.25,
+    "Gaussian calendar": 0.5
+  }
+}
